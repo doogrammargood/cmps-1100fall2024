@@ -84,7 +84,7 @@ random.shuffle(deck)
 
 # Deal a hand of 12 cards
 hand = deck[:12]
-
+print("the value of hand is ", hand)
 # Draw the hand
 for i, card in enumerate(hand):
     draw_card(card, i)
